@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тарифный план</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/pt-root-ui" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p>Скидка действует:</p>
+        <div class="countdown">
+          <div class="countdown-item">
+            <p class="minutes">00</p>
+            <p class="label">минут</p>
+          </div>
+          <div class="countdown-item">
+            <p class="colon">:</p>
+          </div>
+          <div class="countdown-item">
+            <p class="seconds">00</p>
+            <p class="label">секунд</p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <h1>Выберите подходящий тарифный план</h1>
+        <div class="container">
+          <img src="img/img.png" alt="man" />
+          <div class="prices">
+            <div class="prices__items items">
+              <div class="items__item item">
+                <p>1 неделя</p>
+                <div class="item__price">
+                  <p><span></span>₽</p>
+                  <p><span></span>₽</p>
+                </div>
+                <p>Чтобы просто начать 👍🏻</p>
+                <div class="item__sale">
+                  <p>-30%</p>
+                </div>
+              </div>
+              <div class="items__item item">
+                <p>1 месяц</p>
+                <div class="item__price">
+                  <p><span></span>₽</p>
+                  <p><span></span>₽</p>
+                </div>
+                <p>Привести тело в порядок 💪🏻</p>
+                <div class="item__sale">
+                  <p>-40%</p>
+                </div>
+              </div>
+              <div class="items__item item">
+                <p>3 месяца</p>
+                <div class="item__price">
+                  <p><span></span>₽</p>
+                  <p><span></span>₽</p>
+                </div>
+                <p>Изменить образ жизни 🔥</p>
+                <div class="item__sale">
+                  <p>-50%</p>
+                </div>
+              </div>
+            </div>
+            <div class="forever-item item">
+              <p>навсегда</p>
+              <div class="item__price">
+                <p><span></span>₽</p>
+                <p><span></span>₽</p>
+              </div>
+              <p>
+                Всегда быть в форме
+                <span>и поддерживать своё здоровье</span> ⭐️
+              </p>
+              <div class="item__sale">
+                <p>-70%</p>
+              </div>
+            </div>
+            <p class="prices__tip">
+              Следуя плану на 3 месяца, люди получают в 2 раза лучший результат,
+              чем за 1 месяц
+            </p>
+            <div class="prices__checkbox">
+              <input
+                class="checkbox-input"
+                type="checkbox"
+                id="checkbox"
+                checked
+              />
+              <label class="checkbox-label" for="checkbox">
+                Я соглашаюсь с <a href="#!">Правилами сервиса</a> и условиями
+                <a href="#!">Публичной оферты.</a>
+              </label>
+            </div>
+            <button class="prices__button">купить</button>
+            <p class="prices__notice">
+              Нажимая «Купить», Пользователь соглашается на автоматическое
+              списание денежных средств по истечению купленного периода.
+              Дальнейшие списания по тарифам участвующим в акции осуществляются
+              по полной стоимости согласно оферте.
+            </p>
+          </div>
+        </div>
+      </main>
+      <dialog>
+        <p>горящее предложение</p>
+        <div class="close"><img src="img/close.svg" alt="close" /></div>
+        <div class="dialog__wrapper">
+          <h2>Не упусти свой <span>последний шанс</span></h2>
+          <p>Мы знаем, как трудно начать.. <span>Поэтому!</span></p>
+          <p>Дарим скидку для <span>лёгкого старта</span> 🏃‍♂️</p>
+          <p>Посмотри, что мы для тебя приготовили 🔥</p>
+          <div class="dialog__cards items">
+            <div class="dialog__card item">
+              <div class="dialog__duration">
+                <p>1 неделя</p>
+                <input type="radio" />
+              </div>
+              <p class="line-through"><span></span>₽</p>
+              <div class="dialog__price">
+                <p><span></span>₽</p>
+                <div class="dialog__sale">
+                  <p>-40%</p>
+                </div>
+              </div>
+            </div>
+            <div class="dialog__card item">
+              <div class="dialog__duration">
+                <p>1 месяц</p>
+                <input type="radio" checked />
+              </div>
+              <p class="line-through"><span></span>₽</p>
+              <div class="dialog__price">
+                <p><span></span>₽</p>
+                <div class="dialog__sale">
+                  <p>-50%</p>
+                </div>
+              </div>
+            </div>
+            <div class="dialog__card item">
+              <div class="dialog__duration">
+                <p>3 месяца</p>
+                <input type="radio" />
+              </div>
+              <p class="line-through"><span></span>₽</p>
+              <div class="dialog__price">
+                <p><span></span>₽</p>
+                <div class="dialog__sale">
+                  <p>-60%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="dialog__button">Начать тренироваться</button>
+        </div>
+      </dialog>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
